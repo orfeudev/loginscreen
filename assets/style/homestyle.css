@@ -1,0 +1,91 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.main-container{
+    display:Flex;
+    justify-content: space-between;
+}
+
+.relogio-estilo{
+font-size: 90px;
+font-weight: bold;
+}
+.calendario{
+    font-size: 14px;
+    position:absolute;
+    left:623px;
+    
+}
+.imagemfundo{
+    position: absolute;
+    width: 425px;
+    height: 525px;
+    left: -133px;
+    top: 132px;
+}
+
+.content{
+    position:absolute;
+    left: 500px;
+    top: 220px;
+    text-align:right;
+
+}
+
+h5{
+    color:#C12D18;
+    font-size:30px;
+    font-weight: bold;    
+}
+h3{
+    color:#C12D18;
+    font-size:55px;
+    font-weight: bold;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    background: linear-gradient(to right, #33383D,#1C1D20);
+    height:60px;
+    width: 100%;
+}
+footer p{
+    color: #FFFFFF;
+    width: 650px;
+    text-align: right;
+    position:absolute;
+    top:5px;
+    padding: 13px 0px;
+    padding-right:20px;
+    font-size:11px;
+   
+}
+.bordinha {
+    border-right: 1px solid white;
+    
+}
+.footer-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contador{
+    position: absolute;
+    left: 800px;
+    top: 15px;
+}
+.navi{
+    
+    color:#C12D18;
+    background-color:white;
+    padding: 41px 0px;
+    text-decoration: none;
+    height:100%;
+     
+    
+}
+
+

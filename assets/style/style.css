@@ -1,0 +1,84 @@
+
+* {
+    font-family: 'Nunito', sans-serif;
+    color: #E0E0E0;
+}
+
+
+body{ 
+    background-image: linear-gradient(to bottom, #33383D, #1C1D20) ;
+    width: 767px;
+    height: 700px;        
+    
+    }
+.main-container {
+    top: 500px
+}
+
+.inflogin{
+    position:absolute;
+ top: 170px;
+ left:130px;
+}
+h1 {
+font-size: 55px;
+
+}
+.login {
+    margin-top: 100px;
+}
+.usuario{
+    display:block;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    border-radius: 15px;
+    background-color: #26292C;
+}
+
+.senha {
+    display:block;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    border-radius: 15px;
+    background-color:#26292C;
+}
+
+.botao{
+    padding: 15px 90px;
+    background:linear-gradient(to right, #FF2D04, #C13216);
+    border-radius: 15px;
+    }
+
+
+
+.imagem {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 325px;
+    top: 0px;
+    z-index: -2;
+    scale: fill;
+}
+
+.logoimagem {
+    position:absolute;
+    height: 42px;
+    width: 186px;
+    right: 240px;
+    top: 35px;
+    border-radius: 0px;
+    
+}
+
+
+
+.info {
+    position:relative;
+   
+}
+
+h5 {
+    font-size: 25px;
+}
+
