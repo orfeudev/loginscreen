@@ -14,7 +14,7 @@ font-weight: bold;
 .calendario{
     font-size: 14px;
     position:absolute;
-    left:593px;
+    left:623px;
     
 }
 .imagemfundo{
@@ -107,5 +107,15 @@ footer p{
      
     
 }
+.logout{
+    margin:0;
+    
+    color:white;
+    background:#33383D;
+}
 
-
+.temp{
+    font-size:45px;
+    font-weight: bold;
+   
+}

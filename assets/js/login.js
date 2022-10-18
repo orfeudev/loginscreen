@@ -20,18 +20,17 @@ function removeErrors()
 }
 
 function aumentarInput()
-{
+{   
     document.getElementById("usuario").classList.add("aumentarTamanho");
     document.getElementById("senha").classList.add("aumentarTamanho");
-}
+   
+    }
 
 
 
 // function diminuirInput()
 // {
+//     console.log("diminuirInput")
 //     document.getElementById("usuario").classList.remove("aumentarTamanho");
 //     document.getElementById("senha").classList.remove("aumentarTamanho");
-// }if(document.getElementById("usuario").value.length == 0)
-// {
-//       runFunction(diminuirInput());
-// } não consegui terminar o raciocínio
+// } não consegui concluir o raciocínio
