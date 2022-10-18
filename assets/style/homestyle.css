@@ -14,7 +14,7 @@ font-weight: bold;
 .calendario{
     font-size: 14px;
     position:absolute;
-    left:623px;
+    left:593px;
     
 }
 .imagemfundo{
@@ -72,10 +72,30 @@ footer p{
     align-items: center;
 }
 
-#contador{
+.countdiv{
     position: absolute;
-    left: 800px;
-    top: 15px;
+    left: 755px;
+    color:white;
+    display:flex;
+    top: 3px;
+    place-items:center;
+}
+.estilizacao-contador{
+    display:flex;
+    flex-direction:column;
+    place-items: center;
+}
+#counter{
+    font-size: 40px;
+    font-weight: bold;
+}
+.refresh{
+    padding-right:8px;
+    font-size: 13px;
+    text-align: right;
+}
+.counter-content{
+    font-size: 12px;
 }
 .navi{
     

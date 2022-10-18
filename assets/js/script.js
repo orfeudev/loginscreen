@@ -18,19 +18,20 @@ calendario.textContent = data();
 
 function data(){
     var dateToday = new Date(); 
+    var diaDaSemana = dateToday.toLocaleString("pt-BR", { weekday: "long"});
     var dia = dateToday.getDate();
     var mes = dateToday.toLocaleString("pt-BR", { month: "long" });
     var ano = dateToday.getFullYear();
 
-    return dia + " de " + mes + " de " + ano;
+    return diaDaSemana + " " + dia + " de " + mes + " de " + ano;
 
 }
 
 setInterval(() => updateCounter(), 1000);
-console.log("ahuihuis");
+
 function updateCounter() {
-  console.log("começo");  
-  var value = document.getElementById("contador").value;
+ 
+  var value = document.getElementById("counter").innerText;
   if(!value){
     value = 600;
     
@@ -38,7 +39,7 @@ function updateCounter() {
   var timer = parseInt(value, 10);
   console.log('timer', timer);
   timer-=1;
-document.getElementById("contador").value = timer;
+document.getElementById("counter").innerText = timer;
   if(timer == 0){
  window.location.reload(1)
   }

@@ -18,24 +18,35 @@
      <main>
         <div class="inflogin">
             <div class="info">
-            <h1>Olá,</h1>
-            <p>para continuar navegando de forma<br>segura,efeture o login na rede.</p>
+                <h1>Olá,</h1><br>
+                <p>para continuar navegando de forma<br>segura,efeture o login na rede.</p>
             </div>
             <div class="login">
-            <h5>Login</h5><br>
-            <input type="email" placeholder="Usuário" class="usuario" required>
-            <input type="password" placeholder="Senha" class="senha" required>
+                <h5>Login</h5><br>
             </div>
-            <div>
-            <button class="botao">Continuar</button>
-            </div>
-        </div>
+      
             <div class="imagem">    
                 <img src="../Sprint IV - Compass/assets/style/img/image 2.png" class="imagem">
             </div>
+            <form name="formulario" method="post">
+                <input type="email" name="yourName" placeholder="Usuário" id="usuario"  autocomplete="off" class="usuario" required onclick="removeErrors()" onkeypress="aumentarInput()">
+                <input type="password" name="yourPass" placeholder="Senha" id="senha" class="senha" required onclick="removeErrors()" onkeypress="aumentarInput()">
+                <div class="hidden" id="hidden">
+                    <p style="padding-bottom:10px; color:#E9B425; text-align: center;">Ops, usuário ou senha inválidos.<br> Tente novamente!</p>
+                </div>
+                <input type="button" name="log" id="logButton" value="Continue" onclick="myFunction()" class="botao">
+             
+            </div>
+            <div class="icons">
+                <img class="imglogin" src="../Sprint IV - Compass/assets/style/img/login.png">
+                <img class="imgsenha" src="../Sprint IV - Compass/assets/style/img/senha.png">
+            </div>
 
+            </form>
+        </div>
+              
      </main>
-    
+<script src="../Sprint IV - Compass/assets/js/login.js"></script>
      
         
      
