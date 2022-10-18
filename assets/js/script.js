@@ -12,7 +12,6 @@ const relogio = setInterval(function time() {
     
 });
 
-
 const calendario = document.getElementById('data');
 calendario.textContent = data();
 
@@ -69,6 +68,6 @@ function buildURL(latitude, longitude) {
 
 function onSuccess(temperature, cityName) {
     const formattedTemperature = Math.round(temperature) + "°";
-    document.getElementById("cidade").innerText=cityName;
-    document.getElementById("temperatura").innerText=formattedTemperature;
+    document.getElementById("cidade").innerText = cityName;
+    document.getElementById("temperatura").innerText = formattedTemperature;
 }
